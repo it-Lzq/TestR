@@ -40,4 +40,16 @@ public class Student {
     public void setAge(int age) {
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        System.out.println("hello git");
+        System.out.println("hello lizeqing");
+
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
