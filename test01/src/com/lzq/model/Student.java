@@ -44,12 +44,7 @@ public class Student {
     @Override
     public String toString() {
         System.out.println("hello git");
-        System.out.println("hello lizeqing");
-
-        return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                '}';
+        System.out.println("hello master");
+        return "hello 123";
     }
 }
