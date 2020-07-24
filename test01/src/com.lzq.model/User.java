@@ -7,6 +7,16 @@ package com.lzq.model;
  * @description 描述：用户
  */
 public class User {
+
     private Long id;
+
     private String name;
+
+    public User() {
+    }
+
+    public User(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 }
